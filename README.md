@@ -1,25 +1,24 @@
-# Projeto de Grafos: Detecção de Desinformação no Twitter
+# Graph Theory Project: Misinformation Detection on Twitter
 
-Este projeto foi desenvolvido como parte da disciplina **Teoria e Aplicação de Grafos** (TAG) — Universidade de Brasília (2025/1), com o objetivo de analisar redes sociais e identificar potenciais espalhadores de fake news utilizando algoritmos clássicos de grafos.
+This project was developed as part of the course **"Teoria e Aplicação de Grafos"** (TAG) — University of Brasília (2025/1). Its main goal is to analyze social networks and identify potential fake news spreaders using classic graph algorithms.
 
-## 🔍 Objetivo
-Utilizar dados reais do Twitter para construir um grafo de interações entre usuários (menções, retweets), e aplicar algoritmos de PageRank, detecção de comunidades e medidas de centralidade para entender a estrutura da rede e detectar nós influentes na propagação de desinformação.
+## 🔍 Objective
+Use real Twitter data to build a graph of interactions between users (mentions, retweets), and apply PageRank, community detection algorithms, and centrality measures to understand the network structure and detect influential nodes in the spread of misinformation.
 
-## 🧰 Tecnologias e Bibliotecas
+## 🧰 Technologies and Libraries
 - Python 3
-- [NetworkX](https://networkx.org/) — para manipulação de grafos
-- [Matplotlib](https://matplotlib.org/) — para visualização
-- [Pandas](https://pandas.pydata.org/) — para manipulação de dados
+- [NetworkX](https://networkx.org/) — for graph manipulation
+- [Matplotlib](https://matplotlib.org/) — for visualization
+- [Pandas](https://pandas.pydata.org/) — for data handling
 
-## 📊 Resultados
-- Cálculo de PageRank para identificar usuários mais influentes
-- Detecção de comunidades usando `greedy_modularity_communities`
-- Visualização do grafo com tamanho dos nós proporcional ao PageRank e coloração por comunidade
+## 📊 Results
+- PageRank calculation to identify the most influential users
+- Community detection using `greedy_modularity_communities`
+- Graph visualization with node size proportional to PageRank and coloring by community
 
-
-## 📎 Fontes de Dados
+## 📎 Data Sources
 - [SNAP Twitter Data](https://snap.stanford.edu/data/twitter.tar.gz)
 - [Fake News Dataset - Kaggle](https://www.kaggle.com/datasets/mrisdal/fake-news)
 
 ---
-> Projeto desenvolvido para fins acadêmicos — TAG/UnB 2025/1 ✨
+> Academic project — TAG/UnB 2025/1 ✨
