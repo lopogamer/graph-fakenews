@@ -19,7 +19,7 @@ Use real Twitter data to build a graph of interactions between users (mentions, 
 ## ⚙️ How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/graph-fakenews.git
+   git clone https://github.com/zekekk/graph-fakenews.git
    cd graph-fakenews
    ```
 2. (Optional) Create and activate a virtual environment:
