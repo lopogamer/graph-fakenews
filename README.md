@@ -16,6 +16,24 @@ Use real Twitter data to build a graph of interactions between users (mentions, 
 - Community detection using `greedy_modularity_communities`
 - Graph visualization with node size proportional to PageRank and coloring by community
 
+## ⚙️ How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/graph-fakenews.git
+   cd graph-fakenews
+   ```
+2. (Optional) Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the notebook `main.ipynb`
+
 ## 📎 Data Sources
 - [SNAP Twitter Data](https://snap.stanford.edu/data/twitter.tar.gz)
 - [Fake News Dataset - Kaggle](https://www.kaggle.com/datasets/mrisdal/fake-news)
